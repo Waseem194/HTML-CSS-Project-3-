@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Poppins:wght@600;700&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f9e0ae;
+  width: 100%;
+  height: 7.75rem;
+  flex-shrink: 0;
+}
+header .navbar {
+  gap: 31.5;
+}
+header img {
+  color: #000;
+  width: 2.375rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+}
+header span {
+  color: #000000;
+  font-family: Jim Nightshade;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 31.5;
+}
+header nav {
+  gap: 2rem;
+  display: flex;
+  font-family: Poppins;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3.5rem;
+}
+nav img {
+  width: 0.93613rem;
+  height: 0.53925rem;
+}
+header .btn {
+  border-radius: 0.625rem;
+  background: #c24914;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 9.375rem;
+  height: 2.4375rem;
+  text-decoration: none;
+ text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppins;
+}
+.left-side {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+.left-side h1 {
+  width: 26.75rem;
+  color: #000000;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.left-side p {
+  color: rgba(0, 0, 0, 0.46);
+  width: 34.375rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.left-side a {
+  display: flex;
+  justify-content: center;
+  width: 12.5rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #682c0e;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  left: 2rem;
+  bottom: 6.4375rem;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #000000;
+  font-family: Poppins;
+}
+.left-container img {
+  width: 30rem;
+  height: 23.6875rem;
+  flex-shrink: 0;
+}
+.right-container h2 {
+  width: 25.4375rem;
+  height: 9rem;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.right-container ul {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.between-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+  font-family: Poppins;
+}
+.between-container .left-between {
+  width: 33.125rem;
+  flex-shrink: 0;
+  height: 13.5rem;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.between-container .right-between {
+  width: 27.45713rem;
+  height: 18.29013rem;
+  flex-shrink: 0;
+}
+.Buttons {
+  background: #f9e0ae;
+  width: 67.5rem;
+  height: 8.75rem;
+  flex-shrink: 0;
+  font-family: Poppins;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.Buttons .btn1 {
+  text-decoration: none;
+  background: #ffffff;
+  width: 18.75rem;
+  height: 3.9375rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* text-align: center;  */
+  /* align-content: center; */
+}
+.Buttons .btn2 {
+  text-decoration: none;
+  width: 18.75rem;
+  height: 3.9375rem;
+  flex-shrink: 0;
+  background: #c24914;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* text-align: center; */
+}
+.lastSection {
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppins;
+}
+.lastSection .first{
+  transform: skew(90,3);
+}
+
+.left-lastSection h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.left-lastSection p {
+  color: rgba(0, 0, 0, 0.46);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.left-lastSection a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: space-around;
+  text-align: center;
+  width: 17.0625rem;
+  height: 3.375rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #fc8621;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+footer {
+  width: 80rem;
+  height: 27.625rem;
+  flex-shrink: 0;
+  background: #f9e0ae;
+  font-family: Poppins;
+}
+footer .footer-path {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .icons ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  width: 2.3125rem;
+  height: 2.3125rem;
+}
+/* .img-part img {
+  width: 2.375rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+} */
+.img-part span {
+  color: #000000;
+  font-family: Jim Nightshade;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer h2 {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.links ul,
+.contacts ul {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* .links ul{
+  width: 10.25rem;
+  height: 5.5625rem;
+}
+.contacts ul {
+  width: 15.1875rem;
+  height: 5.5625rem;
+} */
+.last{
+  padding: 12rem 33rem;
+  align-items: center;
+  font-family: Poppins;
+}
+.last img {
+  width: 1.25rem;
+  height: 1.20075rem;
+  flex-shrink: 0;
+}
+.last span {
+  color: #7d7a74;
+ 
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
