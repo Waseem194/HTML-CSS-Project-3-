@@ -3,23 +3,29 @@
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background: #f9e0ae;
   width: 100%;
-  height: 7.75rem;
-  flex-shrink: 0;
+  height: 124px;
+  /* height: 7.75rem; */
+  /* flex-shrink: 0; */
+  gap: 20%; 
 }
-header .navbar {
-  gap: 31.5;
+
+header .menu-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 4em;
 }
+
 header img {
   color: #000;
   width: 2.375rem;
   height: 2.375rem;
   flex-shrink: 0;
 }
-header span {
+header .logo span {
   color: #000000;
   font-family: Jim Nightshade;
   font-size: 2.5rem;
@@ -29,9 +35,9 @@ header span {
   gap: 31.5;
 }
 header nav {
-  gap: 2rem;
+  gap: 2em;
   display: flex;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
 }
 
 header nav a {
@@ -41,9 +47,9 @@ header nav a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 3.5rem;
+  /* display: inline-flex; */
+  /* align-items: flex-start; */
+  /* gap: 3.5rem; */
 }
 nav img {
   width: 0.93613rem;
