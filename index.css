@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Poppins:wght@600;700&display=swap");
 
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 0;
+  margin: 0;
+}
 header {
   display: flex;
   justify-content: center;
@@ -27,26 +35,20 @@ header img {
 }
 header .logo span {
   color: #000000;
-  font-family: Jim Nightshade;
+  font-family: Jim Nightshade, sans-serif;
   font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   gap: 31.5;
 }
 header nav {
   gap: 2em;
   display: flex;
-  font-family: Poppins, sans-serif;
 }
 
 header nav a {
   text-decoration: none;
   color: #000000;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   /* display: inline-flex; */
   /* align-items: flex-start; */
   /* gap: 3.5rem; */
@@ -56,49 +58,44 @@ nav img {
   height: 0.53925rem;
 }
 header .btn {
-  border-radius: 0.625rem;
+  border-radius: 10px;
+  border: none;
   background: #c24914;
   color: #ffffff;
-  font-family: Poppins;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   width: 9.375rem;
   height: 2.4375rem;
   text-decoration: none;
  text-align: center;
 }
 
-section {
+.hero-section {
   display: flex;
-  justify-content: space-around;
-  font-family: Poppins;
+  justify-content: center;
+  margin-top: 5%;
 }
-.left-side {
-  /* display: flex;
+.hero-section .left-side {
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; */
+  justify-content: center;
+  gap: 2em;
 }
 .left-side h1 {
   width: 26.75rem;
   color: #000000;
   font-size: 3rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .left-side p {
   color: rgba(0, 0, 0, 0.46);
   width: 34.375rem;
   font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
-.left-side a {
-  display: flex;
-  justify-content: center;
+.left-side button {
+  /* display: flex; */
+  /* justify-content: center; */
+  border: none;
   width: 12.5rem;
   height: 2.75rem;
   flex-shrink: 0;
@@ -106,68 +103,96 @@ section {
   background: #682c0e;
   font-family: Poppins;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   left: 2rem;
   bottom: 6.4375rem;
   color: #ffffff;
   text-decoration: none;
 
 }
-.container {
+.online-center-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   color: #000000;
   font-family: Poppins;
+  margin-top: 20%;
+  gap: 100px;
 }
-.left-container img {
+.online-center-container .left img {
   width: 30rem;
   height: 23.6875rem;
   flex-shrink: 0;
 }
-.right-container h2 {
+.online-center-container .right h2 {
   width: 25.4375rem;
   height: 9rem;
   font-size: 3rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
+.online-center-container .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.online-center-container .right ul {
+  margin: 0;
+}
+
 .right-container ul {
   font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
-.between-container {
+.account-information-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  color: #000000;
-  font-family: Poppins;
+  color: #000;
+  margin-top: 20%;
+  gap: 100px;
 }
-.between-container .left-between {
+.account-information-container .left-between {
   width: 33.125rem;
   flex-shrink: 0;
   height: 13.5rem;
   font-size: 3rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
-.between-container .right-between {
+.account-information-container .right-between {
   width: 27.45713rem;
   height: 18.29013rem;
   flex-shrink: 0;
 }
+.registeration-container {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.registeration-container form {
+  background: #F9E0AE;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  padding: 2.4em 0;
+}
+
+.registeration-container form input {
+  width: 300px;
+  /* height: 60px; */
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.8em 0;
+}
+
 .Buttons {
   background: #f9e0ae;
   width: 67.5rem;
   height: 8.75rem;
   flex-shrink: 0;
-  font-family: Poppins;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -179,9 +204,7 @@ section {
   height: 3.9375rem;
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   /* text-align: center;  */
   /* align-content: center; */
 }
@@ -193,15 +216,12 @@ section {
   background: #c24914;
   color: #ffffff;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   /* text-align: center; */
 }
 .lastSection {
   display: flex;
   justify-content: space-around;
-  font-family: Poppins;
 }
 .lastSection .first{
   transform: skew(90,3);
@@ -211,16 +231,11 @@ section {
   color: #000000;
   text-align: center;
   font-size: 3rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .left-lastSection p {
   color: rgba(0, 0, 0, 0.46);
   font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 .left-lastSection a {
   display: flex;
@@ -235,9 +250,7 @@ section {
   background: #fc8621;
   color: #ffffff;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-align: center;
 }
 footer {
@@ -245,7 +258,6 @@ footer {
   height: 27.625rem;
   flex-shrink: 0;
   background: #f9e0ae;
-  font-family: Poppins;
 }
 footer .footer-path {
   display: flex;
@@ -266,28 +278,18 @@ footer .icons ul {
 } */
 .img-part span {
   color: #000000;
-  font-family: Jim Nightshade;
+  font-family: Jim Nightshade, sans-serif;
   font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 footer h2 {
   color: #000000;
-  font-family: Poppins;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .links ul,
 .contacts ul {
   color: rgba(0, 0, 0, 0.5);
-  font-family: Poppins;
   font-size: 0.9375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -303,7 +305,6 @@ footer h2 {
 .last{
   padding: 12rem 33rem;
   align-items: center;
-  font-family: Poppins;
 }
 .last img {
   width: 1.25rem;
@@ -312,10 +313,6 @@ footer h2 {
 }
 .last span {
   color: #7d7a74;
- 
   font-size: 0.9375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 
 }
