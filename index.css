@@ -120,7 +120,7 @@ header .btn {
   justify-content: center;
   color: #000000;
   font-family: Poppins;
-  margin-top: 20%;
+  margin-top: 15%;
   gap: 100px;
 }
 .online-center-container .left img {
@@ -152,7 +152,7 @@ header .btn {
   justify-content: center;
   align-items: center;
   color: #000;
-  margin-top: 20%;
+  margin-top: 15%;
   gap: 100px;
 }
 .account-information-container .left-between {
